@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(200, 219, 190);
+  padding:24px;
+  text-align: center;
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+h1{
+  color: rgb(66, 95, 87);
+  font-size : 25px;
+  font-family : 'PT Serif', serif;
+}
+
+h2,h3{
+color: rgb(66, 95, 87);
+font-size : 15px;
+font-family : 'PT Serif', serif;
+}
+
+h5{
+  font-size: 12px;
+}
+
+#profile-pic{
+  width:200px;
+  height:200px;
+  border-radius:50%;
+}
+
+a:hover {
+  color: white;
+}
+
+a{
+  text-decoration:none;
+  color:rgb(66, 95, 87);
+  font-size:15px;
+  font-weight: bold;
+  transition:0.3s ease;
+  font-family: 'PT Serif', serif;
+}
+
+.card{
+  background-color:rgb(255, 247, 233);
+  padding:24px;
+  width:500px;
+  margin: 20px auto;
+  border-radius:20px;
+  border: 2px solid rgb(66, 95, 87);
+}
+
+li{
+  display:inline
+}
+
+ul{
+  padding:0;
+}
